@@ -5,7 +5,7 @@ import slide3 from '../assets/Slider/3.jpg'
 import { Link } from "react-router-dom";
 const Banner = () => {
     return (
-        <div className="pt-20">
+        <div className="">
             <div className=" flex  flex-col gap-8 md:gap-28 md:flex-row">
                 <Slider img1={slide1} img2={slide2} img3={slide3}></Slider>
               
