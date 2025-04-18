@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: import.meta.env.APIKEY,
+    apiKey:'AIzaSyAlwYL8JQ6k6t6CP8WvEQ-Rn1X3DvQds4s',
     authDomain: import.meta.env.AUTHDOMAIN,
     projectId: import.meta.env.PROJECTID,
     storageBucket: import.meta.env.STORAGEBUCKET,
@@ -14,4 +14,6 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+ const app = initializeApp(firebaseConfig);
+
+ export default app;

@@ -1,23 +1,49 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { IoBag } from "react-icons/io5";
 import ReactStarsRating from 'react-awesome-stars-rating';
 import UseAxiosSecure from "../../../../Components/hooks/UseAxiosSecure";
 import { useQuery } from "@tanstack/react-query";
 import { useSearchParams } from "react-router-dom";
-const AllFruits = () => { 
+import Swal from "sweetalert2";
+import { AuthContext } from "../../../Authentication/Provider/AuthProvider";
+import UseCart from "../../../../Components/Shared/UseCart";
+const AllFruits = () => {
+    let [, refetch] = UseCart();
     let axiosSecure = UseAxiosSecure();
+    let { user } = useContext(AuthContext);
     let [params, setParams] = useSearchParams();
     let category = params.get('category');
     console.log(category);
     let { data: fruits = [] } = useQuery({
-        queryKey: ['fruits',category],
+        queryKey: ['fruits', category],
         queryFn: async () => {
-            const { data } =  await axiosSecure(`fruits?category=${category}`);
+            const { data } = await axiosSecure(`fruits?category=${category}`);
             return data;
         }
     })
 
-    console.log(fruits)
+    let handleAddToCart = async (cart) => {
+        let originalCart = {
+            name: cart.name,
+            img: cart.img,
+            category: cart.category,
+            price: cart.price,
+            email: user.email
+
+        };
+        try {
+            let { data } = await axiosSecure.post('/cart', originalCart);
+            console.log(data);
+            Swal.fire({
+                title: "Item Added",
+                icon: "success",
+                draggable: true
+            });
+            refetch();
+        } catch (err) {
+            console.error('Error adding to cart:', err);
+        }
+    }
     return (
         <div>
             <div className="grid px-2 md:px-0 grid-cols-1 md:grid-cols-2 mb-8 gap-4">
@@ -39,7 +65,7 @@ const AllFruits = () => {
                                 <ReactStarsRating className='flex' value={fruit.rating} />
                             </div>
                             <div className="card-actions justify-end">
-                                <button className="btn bg-blue-500  border-none btn-primary flex-grow"> <IoBag /> Add To Cart </button>
+                                <button onClick={() => handleAddToCart(fruit)} className="btn bg-blue-500  border-none btn-primary flex-grow"> <IoBag /> Add To Cart </button>
                             </div>
                         </div>
                     </div>)

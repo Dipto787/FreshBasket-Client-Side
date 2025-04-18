@@ -1,13 +1,16 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../Components/Shared/Navbar/Navbar";
 import Footer from "../Components/Shared/Footer/Footer";
 
 const Root = () => {
+    let location = useLocation();
+    let unable = (location?.pathname === '/login') || (location?.pathname === '/register');
+    console.log(location)
     return (
-        <div  style={{ overflowX: 'hidden' }} className="">
-            <Navbar></Navbar>
+        <div style={{ overflowX: 'hidden' }} className="">
+            {unable || <Navbar></Navbar>}
             <Outlet></Outlet>
-            <Footer></Footer>
+            {unable || <Footer></Footer>}
         </div>
     );
 };
