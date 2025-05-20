@@ -1,7 +1,8 @@
 import axios from "axios";
 
 let axiosSecure = axios.create({
-    baseURL: 'http://localhost:5000',
+    baseURL: 'https://fresh-basket-server-side.vercel.app',
+    withCredentials: true
 })
 
 const UseAxiosSecure = () => {

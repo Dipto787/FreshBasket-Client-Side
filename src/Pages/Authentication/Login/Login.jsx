@@ -4,11 +4,16 @@ import { useForm } from 'react-hook-form';
 import { AuthContext } from '../Provider/AuthProvider';
 import { TbFidgetSpinner } from 'react-icons/tb';
 import toast from 'react-hot-toast';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import UseAxiosSecure from '../../../Components/hooks/UseAxiosSecure';
 const Login = () => {
     let { signIn, loading, setLoading } = useContext(AuthContext);
     let navigate = useNavigate();
+    let location = useLocation();
+    let axiosSecure = UseAxiosSecure();
+    let from = location?.state;
+    console.log(location)
     const {
         register,
         handleSubmit,
@@ -16,6 +21,7 @@ const Login = () => {
     } = useForm();
     let onSubmit = async (e) => {
         try {
+          
 
             let result = await signIn(e.email, e.password);
             Swal.fire({
@@ -23,7 +29,7 @@ const Login = () => {
                 icon: "success",
                 draggable: true
             });
-            navigate('/');
+            navigate(from || '/');
 
 
         } catch (err) {

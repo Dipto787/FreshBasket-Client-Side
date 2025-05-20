@@ -5,31 +5,43 @@ import { IoCart } from "react-icons/io5";
 import { useQuery } from "@tanstack/react-query";
 import UseAxiosSecure from "../../hooks/UseAxiosSecure";
 import UseCart from "../UseCart";
-
+import logo from '../../../assets/logo.png'
 const Navbar = () => {
     let { user, logout, setUser } = useContext(AuthContext);
     let [cart] = UseCart();
- 
+
     let Links = <>
         <li><NavLink
             to='/'
+            className={({ isActive }) =>
+                `flex items-center gap-2 py-2 px-4 rounded-md transition-colors cursor-pointer ${isActive
+                    ? "bg-blue-100 text-blue-700 font-semibold"
+                    : "hover:bg-gray-100 text-gray-700"
+                }`
+            }
             smooth={true}
             duration={500}
             spy={true}
             offset={-50}  // Adjust for fixed navbar
             activeClass="text-orange-500 font-bold border-b-2 border-orange-500"
-            className="cursor-pointer mr-6 hover:text-blue-500 transition-all" > Home</NavLink></li>
+        > Home</NavLink></li>
         <li><NavLink
             to='/shop'
+            className={({ isActive }) =>
+                `flex items-center gap-2 py-2 px-4 rounded-md transition-colors cursor-pointer ${isActive
+                    ? "bg-blue-100 text-blue-700 font-semibold"
+                    : "hover:bg-gray-100 text-gray-700"
+                }`
+            }
             smooth={true}
             duration={500}
             spy={true}
             offset={-50}  // Adjust for fixed navbar
             activeClass="text-orange-500 font-bold border-b-2 border-orange-500"
-            className="cursor-pointer mr-6 hover:text-blue-500 transition-all"> Shop</NavLink></li>
+        > Shop</NavLink></li>
         <li><NavLink to='/contact'> Contact</NavLink></li>
         <li><NavLink to='/about'>About Us</NavLink></li>
-        <li className="relative"><NavLink to='/cart'><IoCart size={28} /><span className="absolute top-0 left-10 bg-red-600 rounded-full px-2 py-0.50  font-bold">{cart.length}</span></NavLink></li>
+        <li className="relative"><NavLink to='dashboard/cart'><IoCart size={28} /><span className="absolute top-0 left-10 bg-red-600 rounded-full px-2 py-0.50  font-bold">{cart.length}</span></NavLink></li>
 
 
     </>
@@ -55,7 +67,7 @@ const Navbar = () => {
                             {Links}
                         </ul>
                     </div>
-                    <Link to={'/'} className="btn btn-ghost bg-white  text-xl font-bold shadow-xl text-red-500">FreshBasket</Link>
+                    <Link to={'/'} className="btn  w-32 bg-white  text-xl font-bold shadow-xl text-red-500"><img src={logo} alt="" /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -77,8 +89,9 @@ const Navbar = () => {
                                     tabIndex={0}
                                     className="menu menu-sm dropdown-content text-black font-semibold bg-base-100 rounded-box z-1 mt-3 w-40 p-2 shadow">
 
-                                    <li onClick={handleLogout}><NavLink>Logout</NavLink></li>
+                                    <li><NavLink to={'dashboard'}>Dashboard</NavLink></li>
                                     <li><NavLink to={'/profile'}>My Profile</NavLink></li>
+                                    <li onClick={handleLogout}><NavLink>Logout</NavLink></li>
                                 </ul>
                             </div>
                         </div> : <div><button className="bg-orange-400 px-4 py-2 mr-3 rounded text-white hover:border-orange-400 hover:border-2  hover:bg-transparent hover:text-black "><NavLink to='/login'> login</NavLink></button>

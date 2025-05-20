@@ -5,7 +5,7 @@ import axios from "axios";
 let auth = getAuth(app)
 export let AuthContext = createContext(null)
 const AuthProvider = ({ children }) => {
-    let [loading, setLoading] = useState(false);
+    let [loading, setLoading] = useState(true);
     let [user, setUser] = useState(null);
     let signUp = (email, password) => {
         setLoading(true);
@@ -40,7 +40,7 @@ const AuthProvider = ({ children }) => {
     };
     const getToken = async email => {
         const { data } = await axios.post(
-            `http://localhost:5000/jwt`,
+            `https://fresh-basket-server-side.vercel.app/jwt`,
             { email },
             { withCredentials: true }
         )
@@ -48,9 +48,9 @@ const AuthProvider = ({ children }) => {
     }
     useEffect(() => {
         let unsubscribe = onAuthStateChanged(auth, currentUser => {
+            setUser(currentUser);
             if (currentUser) {
                 console.log(currentUser)
-                setUser(currentUser);
                 getToken(currentUser.email);
             }
             setLoading(false)

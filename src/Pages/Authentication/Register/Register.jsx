@@ -6,8 +6,10 @@ import { TbFidgetSpinner } from 'react-icons/tb';
 import toast from 'react-hot-toast';
 import { Link, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import UseAxiosSecure from '../../../Components/hooks/UseAxiosSecure';
 
 const Register = () => {
+    let axiosSecure = UseAxiosSecure();
     let { signUp, loading, setLoading, updateUserProfile } = useContext(AuthContext);
     let navigate = useNavigate();
     const {
@@ -19,10 +21,14 @@ const Register = () => {
         console.log(e)
         let formData = new FormData();
         formData.append('image', e.photoUrl[0])
+
         try {
             const { data } = await axios.post(`https://api.imgbb.com/1/upload?key=${import.meta.env.VITE_IMGBB_API_KEY}`,
                 formData
             );
+
+
+
 
 
             let result = await signUp(e.email, e.password);
@@ -34,6 +40,7 @@ const Register = () => {
                 draggable: true
             });
             navigate('/');
+            await axiosSecure.post('/user', { email: e.email, name: e.name })
 
 
         } catch (err) {
@@ -45,6 +52,7 @@ const Register = () => {
             });
         }
     }
+    console.log(loading)
     return (
         <div className="flex items-center min-h-screen justify-center">
 

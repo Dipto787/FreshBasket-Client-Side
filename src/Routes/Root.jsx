@@ -4,8 +4,7 @@ import Footer from "../Components/Shared/Footer/Footer";
 
 const Root = () => {
     let location = useLocation();
-    let unable = (location?.pathname === '/login') || (location?.pathname === '/register');
-    console.log(location)
+    let unable = (location?.pathname === '/login') || (location?.pathname === '/register') || (location?.pathname === '/blocked'); 
     return (
         <div style={{ overflowX: 'hidden' }} className="">
             {unable || <Navbar></Navbar>}

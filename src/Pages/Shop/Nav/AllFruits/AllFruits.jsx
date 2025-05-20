@@ -7,6 +7,9 @@ import { useSearchParams } from "react-router-dom";
 import Swal from "sweetalert2";
 import { AuthContext } from "../../../Authentication/Provider/AuthProvider";
 import UseCart from "../../../../Components/Shared/UseCart";
+import { FaSpinner } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
+import useRole from "../../../../hooks/UseRole";
 const AllFruits = () => {
     let [, refetch] = UseCart();
     let axiosSecure = UseAxiosSecure();
@@ -14,13 +17,15 @@ const AllFruits = () => {
     let [params, setParams] = useSearchParams();
     let category = params.get('category');
     console.log(category);
-    let { data: fruits = [] } = useQuery({
+    let { data: fruits = [], isLoading } = useQuery({
         queryKey: ['fruits', category],
         queryFn: async () => {
             const { data } = await axiosSecure(`fruits?category=${category}`);
             return data;
         }
     })
+
+    let [role] = useRole();
 
     let handleAddToCart = async (cart) => {
         let originalCart = {
@@ -46,7 +51,12 @@ const AllFruits = () => {
     }
     return (
         <div>
+            <Helmet>
+                <title> Fresh Basket | Our Shop</title>
+            </Helmet>
             <div className="grid px-2 md:px-0 grid-cols-1 md:grid-cols-2 mb-8 gap-4">
+
+                {isLoading && <FaSpinner className="animate-spin    m-auto min-h-screen "></FaSpinner>}
                 {
                     fruits.map(fruit => <div className="border-2   border-orange-500 flex flex-col p-2 rounded-xl">
                         <figure className="relative">
@@ -65,7 +75,7 @@ const AllFruits = () => {
                                 <ReactStarsRating className='flex' value={fruit.rating} />
                             </div>
                             <div className="card-actions justify-end">
-                                <button onClick={() => handleAddToCart(fruit)} className="btn bg-blue-500  border-none btn-primary flex-grow"> <IoBag /> Add To Cart </button>
+                                <button disabled={role.admin === 'admin'} onClick={() => handleAddToCart(fruit)} className="btn bg-blue-500  border-none btn-primary flex-grow"> <IoBag /> Add To Cart </button>
                             </div>
                         </div>
                     </div>)
