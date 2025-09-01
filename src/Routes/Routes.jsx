@@ -21,10 +21,7 @@ import AddFruits from "../Components/AddFruits";
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Root></Root>,
-        errorElement: <div className=" text-center" ><div className=" text-center  flex justify-center"> <img src={errorPage} alt="" />
-        </div>
-            <Link className="btn px-8 bg-purple-700 text-white  ">Back To Home</Link></div>,
+        element: <Root></Root>, 
         children: [
             {
                 index: true,

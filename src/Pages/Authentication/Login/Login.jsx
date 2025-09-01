@@ -50,7 +50,7 @@ const Login = () => {
                         <fieldset className="fieldset">
                             <label className="fieldset-label">Email</label>
                             <input {...register("email", { required: true })} name='email' type="email" className="input w-full" placeholder="Email" />
-                            {errors.email && <span className="text-red-500 font-bold p-2">This field is required</span>}
+                  {errors.email && <span className="text-red-500 font-bold p-2">This field is required</span>}
                             <label className="fieldset-label">Password</label>
                             <input {...register("password", { required: true })} name='password' type="password" className="input w-full" placeholder="Password" />
                             {errors.password && <span className="text-red-500 font-bold p-2">This field is required</span>}

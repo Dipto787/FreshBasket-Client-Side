@@ -1,0 +1,1158 @@
+[
+  {
+    
+    "id": 1,
+    "name": "Red Apple",
+    "category": "Apple",
+    "price": 3.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/QFV3NKsx/download-56.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 120,
+    "free_shipping": true,
+    "details": "Crisp and juicy red apples, perfect for snacks or salads."
+  },
+  {
+    
+    "id": 2,
+    "name": "Green Apple",
+    "category": "Apple",
+    "price": 3,
+    "unit": "kg",
+    "image": "https://i.ibb.co/XxXP8bNb/download-55.jpg",
+    "brand": "Organic Orchard",
+    "rating": 4.5,
+    "sold": 90,
+    "free_shipping": false,
+    "delivery_charge": 1.5,
+    "details": "Tangy and fresh green apples, great for juicing or pies."
+  },
+  {
+    
+    "id": 3,
+    "name": "Fuji Apple",
+    "category": "Apple",
+    "price": 4.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/99fQ3pmh/images-27.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.8,
+    "sold": 75,
+    "free_shipping": true,
+    "details": "Sweet Fuji apples with a crisp texture."
+  },
+  {
+    
+    "id": 4,
+    "name": "Honeycrisp Apple",
+    "category": "Apple",
+    "price": 4.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/zWfwLmmj/download-58.jpg",
+    "brand": "Organic Orchard",
+    "rating": 4.9,
+    "sold": 60,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Juicy and sweet Honeycrisp apples."
+  },
+  {
+    
+    "id": 5,
+    "name": "Golden Apple",
+    "category": "Apple",
+    "price": 4,
+    "unit": "kg",
+    "image": "https://i.ibb.co/9m8PjYXz/download-57.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.6,
+    "sold": 80,
+    "free_shipping": true,
+    "details": "Golden apples, firm and sweet, ideal for baking."
+  },
+  {
+    
+    "id": 6,
+    "name": "Cavendish Banana",
+    "category": "Banana",
+    "price": 2.5,
+    "unit": "dozen",
+    "image": "https://i.ibb.co/bRRzhWyM/download-59.jpg",
+    "brand": "Tropical Farms",
+    "rating": 4.8,
+    "sold": 200,
+    "free_shipping": true,
+    "details": "Sweet and soft Cavendish bananas."
+  },
+  {
+    
+    "id": 7,
+    "name": "Red Banana",
+    "category": "Banana",
+    "price": 3.2,
+    "unit": "dozen",
+    "image": "https://i.ibb.co/YBdfWm5R/download-60.jpg",
+    "brand": "Tropical Farms",
+    "rating": 4.6,
+    "sold": 150,
+    "free_shipping": false,
+    "delivery_charge": 1.2,
+    "details": "Sweet red bananas with a creamy texture."
+  },
+  {
+    
+    "id": 8,
+    "name": "Baby Banana",
+    "category": "Banana",
+    "price": 2.8,
+    "unit": "dozen",
+    "image": "https://i.ibb.co/xSS8fYbj/images-28.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 180,
+    "free_shipping": true,
+    "details": "Mini bananas, sweet and nutritious."
+  },
+  {
+    
+    "id": 9,
+    "name": "Plantain Banana",
+    "category": "Banana",
+    "price": 3,
+    "unit": "dozen",
+    "image": "https://i.ibb.co/nNGtCNgp/giorgio-trovato-fcz-Cr7-Md-E7-U-unsplash-1.jpg",
+    "brand": "Tropical Farms",
+    "rating": 4.5,
+    "sold": 120,
+    "free_shipping": false,
+    "delivery_charge": 1.8,
+    "details": "Starchy plantains, great for cooking and frying."
+  },
+  {
+    
+    "id": 10,
+    "name": "Lady Finger Banana",
+    "category": "Banana",
+    "price": 3.3,
+    "unit": "dozen",
+    "image": "https://i.ibb.co/bMRf2RBv/anastasia-eremina-VI2r-Io-ZUrks-unsplash.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.6,
+    "sold": 130,
+    "free_shipping": true,
+    "details": "Sweet and small Lady Finger bananas."
+  },
+  {
+    
+    "id": 11,
+    "name": "Mango Alphonso",
+    "category": "Mango",
+    "price": 5.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/0p0hjrnX/download-63.jpg",
+    "brand": "Mango Delight",
+    "rating": 4.9,
+    "sold": 75,
+    "free_shipping": true,
+    "details": "Premium Alphonso mangoes, sweet and aromatic."
+  },
+  {
+    
+    "id": 12,
+    "name": "Mango Haden",
+    "category": "Mango",
+    "price": 4.8,
+    "unit": "kg",
+    "image": "https://i.ibb.co/JRzv7kTb/download-62.jpg",
+    "brand": "Mango Delight",
+    "rating": 4.7,
+    "sold": 60,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Haden mangoes with a sweet and slightly tangy flavor."
+  },
+  {
+    
+    "id": 13,
+    "name": "Mango Kent",
+    "category": "Mango",
+    "price": 5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/3mrnJGmh/download-61.jpg",
+    "brand": "Tropical Fruits",
+    "rating": 4.8,
+    "sold": 65,
+    "free_shipping": true,
+    "details": "Kent mangoes, juicy and sweet, perfect for desserts."
+  },
+  {
+    
+    "id": 14,
+    "name": "Mango Tommy",
+    "category": "Mango",
+    "price": 4.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/pB3g8bqm/images-30.jpg",
+    "brand": "Mango Delight",
+    "rating": 4.6,
+    "sold": 50,
+    "free_shipping": false,
+    "delivery_charge": 1.5,
+    "details": "Tommy mangoes, soft and aromatic."
+  },
+  {
+    
+    "id": 15,
+    "name": "Mango Dasheri",
+    "category": "Mango",
+    "price": 4.7,
+    "unit": "kg",
+    "image": "https://i.ibb.co/Q3Q062bk/images-29.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 55,
+    "free_shipping": true,
+    "details": "Popular Dasheri mangoes, sweet and juicy."
+  },
+  {
+    
+    "id": 16,
+    "name": "Mango Kesar",
+    "category": "Mango",
+    "price": 5.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/QjnGM5xT/download-64.jpg",
+    "brand": "Tropical Fruits",
+    "rating": 4.8,
+    "sold": 45,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Kesar mangoes, fragrant and sweet."
+  },
+  {
+    
+    "id": 17,
+    "name": "Orange Valencia",
+    "category": "Orange",
+    "price": 3.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/Kx5hHg7x/download-66.jpg",
+    "brand": "Citrus World",
+    "rating": 4.6,
+    "sold": 95,
+    "free_shipping": true,
+    "details": "Juicy Valencia oranges, perfect for fresh juice."
+  },
+  {
+    
+    "id": 18,
+    "name": "Orange Navel",
+    "category": "Orange",
+    "price": 3.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/TDhJPyp9/download-67.jpg",
+    "brand": "Citrus World",
+    "rating": 4.8,
+    "sold": 110,
+    "free_shipping": false,
+    "delivery_charge": 1.8,
+    "details": "Sweet and seedless Navel oranges."
+  },
+  {
+    
+    "id": 19,
+    "name": "Blood Orange",
+    "category": "Orange",
+    "price": 4,
+    "unit": "kg",
+    "image": "https://i.ibb.co/jZ9JwRJ2/download-68.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 70,
+    "free_shipping": true,
+    "details": "Blood oranges with a rich flavor and vibrant color."
+  },
+  {
+    
+    "id": 20,
+    "name": "Mandarin Orange",
+    "category": "Orange",
+    "price": 3.8,
+    "unit": "kg",
+    "image": "https://i.ibb.co/3YYYfjDj/images-31.jpg",
+    "brand": "Citrus World",
+    "rating": 4.6,
+    "sold": 80,
+    "free_shipping": false,
+    "delivery_charge": 1.5,
+    "details": "Sweet and small mandarin oranges, easy to peel."
+  },
+  {
+    
+    "id": 21,
+    "name": "Seville Orange",
+    "category": "Orange",
+    "price": 4.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/QvDTVqp9/download-65.jpg",
+    "brand": "Citrus World",
+    "rating": 4.5,
+    "sold": 60,
+    "free_shipping": true,
+    "details": "Seville oranges, tangy and perfect for marmalade."
+  },
+  {
+    
+    "id": 22,
+    "name": "Strawberry Fresh",
+    "category": "Strawberry",
+    "price": 6,
+    "unit": "pack",
+    "image": "https://i.ibb.co/RTmV907V/images-34.jpg",
+    "brand": "Berry Farm",
+    "rating": 4.9,
+    "sold": 50,
+    "free_shipping": true,
+    "details": "Fresh strawberries, juicy and sweet."
+  },
+  {
+    
+    "id": 23,
+    "name": "Strawberry Organic",
+    "category": "Strawberry",
+    "price": 6.5,
+    "unit": "pack",
+    "image": "https://i.ibb.co/S1yNqV1/download-69.jpg",
+    "brand": "Organic Orchard",
+    "rating": 4.8,
+    "sold": 40,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Organic strawberries, handpicked and fresh."
+  },
+  {
+    
+    "id": 24,
+    "name": "Strawberry Sweet",
+    "category": "Strawberry",
+    "price": 6.2,
+    "unit": "pack",
+    "image": "https://i.ibb.co/Xk7jV1Bh/download-70.jpg",
+    "brand": "Berry Farm",
+    "rating": 4.7,
+    "sold": 45,
+    "free_shipping": true,
+    "details": "Sweet strawberries, perfect for desserts and smoothies."
+  },
+  {
+    
+    "id": 25,
+    "name": "Strawberry Berry",
+    "category": "Strawberry",
+    "price": 6.3,
+    "unit": "pack",
+    "image": "https://i.ibb.co/BHjH83Jc/download-71.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.6,
+    "sold": 35,
+    "free_shipping": false,
+    "delivery_charge": 1.5,
+    "details": "Juicy berry strawberries, ideal for jams and cereals."
+  },
+  {
+    
+    "id": 26,
+    "name": "Strawberry King",
+    "category": "Strawberry",
+    "price": 6.8,
+    "unit": "pack",
+    "image": "https://i.ibb.co/DDLJq2KZ/images-32.jpg",
+    "brand": "Berry Farm",
+    "rating": 4.8,
+    "sold": 30,
+    "free_shipping": true,
+    "details": "King size strawberries, large and juicy."
+  },
+  {
+    
+    "id": 27,
+    "name": "Strawberry Delight",
+    "category": "Strawberry",
+    "price": 7,
+    "unit": "pack",
+    "image": "https://i.ibb.co/rRG8T5NY/images-33.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.9,
+    "sold": 25,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Delicious strawberries, perfect for desserts."
+  },
+  {
+    
+    "id": 28,
+    "name": "Pineapple Gold",
+    "category": "Pineapple",
+    "price": 5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/7d2fTKTy/download-73.jpg",
+    "brand": "Tropical Fruits",
+    "rating": 4.8,
+    "sold": 70,
+    "free_shipping": true,
+    "details": "Sweet and tangy golden pineapple."
+  },
+  {
+    
+    "id": 29,
+    "name": "Pineapple Queen",
+    "category": "Pineapple",
+    "price": 5.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/1GmCRWKN/images-35.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 60,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Queen pineapple, juicy and aromatic."
+  },
+  {
+    
+    "id": 30,
+    "name": "Pineapple Smooth",
+    "category": "Pineapple",
+    "price": 4.8,
+    "unit": "kg",
+    "image": "https://i.ibb.co/j9YdXbTS/images-36.jpg",
+    "brand": "Tropical Fruits",
+    "rating": 4.6,
+    "sold": 50,
+    "free_shipping": true,
+    "details": "Smooth pineapple, perfect for smoothies."
+  },
+  {
+    
+    "id": 31,
+    "name": "Pineapple Mini",
+    "category": "Pineapple",
+    "price": 4.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/PsjNTcyq/images-37.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.5,
+    "sold": 40,
+    "free_shipping": false,
+    "delivery_charge": 1.5,
+    "details": "Mini pineapples, sweet and fresh."
+  },
+  {
+    
+    "id": 32,
+    "name": "Pineapple Sweet",
+    "category": "Pineapple",
+    "price": 5.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/67B19nvH/images-38.jpg",
+    "brand": "Tropical Fruits",
+    "rating": 4.7,
+    "sold": 45,
+    "free_shipping": true,
+    "details": "Sweet and juicy pineapples."
+  },
+  {
+    
+    "id": 33,
+    "name": "Pineapple Tropic",
+    "category": "Pineapple",
+    "price": 5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/5hwT10Th/download-72.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.6,
+    "sold": 35,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Tropical pineapple, ideal for desserts."
+  },
+  {
+    
+    "id": 34,
+    "name": "Kiwi Green",
+    "category": "Kiwi",
+    "price": 6,
+    "unit": "kg",
+    "image": "https://i.ibb.co/9mRndBtt/download-77.jpg",
+    "brand": "Exotic Fruits",
+    "rating": 4.9,
+    "sold": 55,
+    "free_shipping": true,
+    "details": "Fresh green kiwi, rich in vitamin C and fiber."
+  },
+  {
+    
+    "id": 35,
+    "name": "Kiwi Gold",
+    "category": "Kiwi",
+    "price": 6.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/vC0tBYTy/download-78.jpg",
+    "brand": "Exotic Fruits",
+    "rating": 4.8,
+    "sold": 50,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Golden kiwi, sweet and juicy."
+  },
+  {
+    
+    "id": 36,
+    "name": "Kiwi Mini",
+    "category": "Kiwi",
+    "price": 5.8,
+    "unit": "kg",
+    "image": "https://i.ibb.co/Ldd7HtmC/images-39.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 45,
+    "free_shipping": true,
+    "details": "Mini kiwis, perfect for snacks and desserts."
+  },
+  {
+    
+    "id": 37,
+    "name": "Kiwi Organic",
+    "category": "Kiwi",
+    "price": 6.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/7tkMkVww/download-74.jpg",
+    "brand": "Organic Orchard",
+    "rating": 4.8,
+    "sold": 40,
+    "free_shipping": false,
+    "delivery_charge": 1.8,
+    "details": "Organic kiwi, fresh and nutritious."
+  },
+  {
+    
+    "id": 38,
+    "name": "Kiwi Sweet",
+    "category": "Kiwi",
+    "price": 6.8,
+    "unit": "kg",
+    "image": "https://i.ibb.co/nMJD2bJ0/download-75.jpg",
+    "brand": "Exotic Fruits",
+    "rating": 4.9,
+    "sold": 35,
+    "free_shipping": true,
+    "details": "Sweet kiwi, juicy and fresh."
+  },
+  {
+    
+    "id": 39,
+    "name": "Kiwi Royal",
+    "category": "Kiwi",
+    "price": 7,
+    "unit": "kg",
+    "image": "https://i.ibb.co/hJDK0CqT/download-76.jpg",
+    "brand": "FreshFarm",
+    "rating": 5,
+    "sold": 30,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Royal kiwi, large and delicious."
+  },
+  {
+    
+    "id": 40,
+    "name": "Kiwi Fresh",
+    "category": "Kiwi",
+    "price": 6.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/Ldd7HtmC/images-39.jpg",
+    "brand": "Exotic Fruits",
+    "rating": 4.8,
+    "sold": 25,
+    "free_shipping": true,
+    "details": "Fresh kiwi, juicy and vitamin-rich."
+  },
+  {
+    
+    "id": 1,
+    "name": "Red Apple",
+    "category": "Apple",
+    "price": 3.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/QFV3NKsx/download-56.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 120,
+    "free_shipping": true,
+    "details": "Crisp and juicy red apples, perfect for snacks or salads."
+  },
+  {
+    
+    "id": 2,
+    "name": "Green Apple",
+    "category": "Apple",
+    "price": 3,
+    "unit": "kg",
+    "image": "https://i.ibb.co/XxXP8bNb/download-55.jpg",
+    "brand": "Organic Orchard",
+    "rating": 4.5,
+    "sold": 90,
+    "free_shipping": false,
+    "delivery_charge": 1.5,
+    "details": "Tangy and fresh green apples, great for juicing or pies."
+  },
+  {
+    
+    "id": 3,
+    "name": "Fuji Apple",
+    "category": "Apple",
+    "price": 4.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/99fQ3pmh/images-27.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.8,
+    "sold": 75,
+    "free_shipping": true,
+    "details": "Sweet Fuji apples with a crisp texture."
+  },
+  {
+    
+    "id": 4,
+    "name": "Honeycrisp Apple",
+    "category": "Apple",
+    "price": 4.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/zWfwLmmj/download-58.jpg",
+    "brand": "Organic Orchard",
+    "rating": 4.9,
+    "sold": 60,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Juicy and sweet Honeycrisp apples."
+  },
+  {
+    
+    "id": 5,
+    "name": "Golden Apple",
+    "category": "Apple",
+    "price": 4,
+    "unit": "kg",
+    "image": "https://i.ibb.co/9m8PjYXz/download-57.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.6,
+    "sold": 80,
+    "free_shipping": true,
+    "details": "Golden apples, firm and sweet, ideal for baking."
+  },
+  {
+    
+    "id": 6,
+    "name": "Cavendish Banana",
+    "category": "Banana",
+    "price": 2.5,
+    "unit": "dozen",
+    "image": "https://i.ibb.co/bRRzhWyM/download-59.jpg",
+    "brand": "Tropical Farms",
+    "rating": 4.8,
+    "sold": 200,
+    "free_shipping": true,
+    "details": "Sweet and soft Cavendish bananas."
+  },
+  {
+    
+    "id": 7,
+    "name": "Red Banana",
+    "category": "Banana",
+    "price": 3.2,
+    "unit": "dozen",
+    "image": "https://i.ibb.co/YBdfWm5R/download-60.jpg",
+    "brand": "Tropical Farms",
+    "rating": 4.6,
+    "sold": 150,
+    "free_shipping": false,
+    "delivery_charge": 1.2,
+    "details": "Sweet red bananas with a creamy texture."
+  },
+  {
+    
+    "id": 8,
+    "name": "Baby Banana",
+    "category": "Banana",
+    "price": 2.8,
+    "unit": "dozen",
+    "image": "https://i.ibb.co/xSS8fYbj/images-28.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 180,
+    "free_shipping": true,
+    "details": "Mini bananas, sweet and nutritious."
+  },
+  {
+    
+    "id": 9,
+    "name": "Plantain Banana",
+    "category": "Banana",
+    "price": 3,
+    "unit": "dozen",
+    "image": "https://i.ibb.co/nNGtCNgp/giorgio-trovato-fcz-Cr7-Md-E7-U-unsplash-1.jpg",
+    "brand": "Tropical Farms",
+    "rating": 4.5,
+    "sold": 120,
+    "free_shipping": false,
+    "delivery_charge": 1.8,
+    "details": "Starchy plantains, great for cooking and frying."
+  },
+  {
+    
+    "id": 10,
+    "name": "Lady Finger Banana",
+    "category": "Banana",
+    "price": 3.3,
+    "unit": "dozen",
+    "image": "https://i.ibb.co/bMRf2RBv/anastasia-eremina-VI2r-Io-ZUrks-unsplash.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.6,
+    "sold": 130,
+    "free_shipping": true,
+    "details": "Sweet and small Lady Finger bananas."
+  },
+  {
+    
+    "id": 11,
+    "name": "Mango Alphonso",
+    "category": "Mango",
+    "price": 5.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/0p0hjrnX/download-63.jpg",
+    "brand": "Mango Delight",
+    "rating": 4.9,
+    "sold": 75,
+    "free_shipping": true,
+    "details": "Premium Alphonso mangoes, sweet and aromatic."
+  },
+  {
+    
+    "id": 12,
+    "name": "Mango Haden",
+    "category": "Mango",
+    "price": 4.8,
+    "unit": "kg",
+    "image": "https://i.ibb.co/JRzv7kTb/download-62.jpg",
+    "brand": "Mango Delight",
+    "rating": 4.7,
+    "sold": 60,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Haden mangoes with a sweet and slightly tangy flavor."
+  },
+  {
+    
+    "id": 13,
+    "name": "Mango Kent",
+    "category": "Mango",
+    "price": 5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/3mrnJGmh/download-61.jpg",
+    "brand": "Tropical Fruits",
+    "rating": 4.8,
+    "sold": 65,
+    "free_shipping": true,
+    "details": "Kent mangoes, juicy and sweet, perfect for desserts."
+  },
+  {
+    
+    "id": 14,
+    "name": "Mango Tommy",
+    "category": "Mango",
+    "price": 4.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/pB3g8bqm/images-30.jpg",
+    "brand": "Mango Delight",
+    "rating": 4.6,
+    "sold": 50,
+    "free_shipping": false,
+    "delivery_charge": 1.5,
+    "details": "Tommy mangoes, soft and aromatic."
+  },
+  {
+    
+    "id": 15,
+    "name": "Mango Dasheri",
+    "category": "Mango",
+    "price": 4.7,
+    "unit": "kg",
+    "image": "https://i.ibb.co/Q3Q062bk/images-29.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 55,
+    "free_shipping": true,
+    "details": "Popular Dasheri mangoes, sweet and juicy."
+  },
+  {
+    
+    "id": 16,
+    "name": "Mango Kesar",
+    "category": "Mango",
+    "price": 5.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/QjnGM5xT/download-64.jpg",
+    "brand": "Tropical Fruits",
+    "rating": 4.8,
+    "sold": 45,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Kesar mangoes, fragrant and sweet."
+  },
+  {
+    
+    "id": 17,
+    "name": "Orange Valencia",
+    "category": "Orange",
+    "price": 3.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/Kx5hHg7x/download-66.jpg",
+    "brand": "Citrus World",
+    "rating": 4.6,
+    "sold": 95,
+    "free_shipping": true,
+    "details": "Juicy Valencia oranges, perfect for fresh juice."
+  },
+  {
+    
+    "id": 18,
+    "name": "Orange Navel",
+    "category": "Orange",
+    "price": 3.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/TDhJPyp9/download-67.jpg",
+    "brand": "Citrus World",
+    "rating": 4.8,
+    "sold": 110,
+    "free_shipping": false,
+    "delivery_charge": 1.8,
+    "details": "Sweet and seedless Navel oranges."
+  },
+  {
+    
+    "id": 19,
+    "name": "Blood Orange",
+    "category": "Orange",
+    "price": 4,
+    "unit": "kg",
+    "image": "https://i.ibb.co/jZ9JwRJ2/download-68.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 70,
+    "free_shipping": true,
+    "details": "Blood oranges with a rich flavor and vibrant color."
+  },
+  {
+    
+    "id": 20,
+    "name": "Mandarin Orange",
+    "category": "Orange",
+    "price": 3.8,
+    "unit": "kg",
+    "image": "https://i.ibb.co/3YYYfjDj/images-31.jpg",
+    "brand": "Citrus World",
+    "rating": 4.6,
+    "sold": 80,
+    "free_shipping": false,
+    "delivery_charge": 1.5,
+    "details": "Sweet and small mandarin oranges, easy to peel."
+  },
+  {
+    
+    "id": 21,
+    "name": "Seville Orange",
+    "category": "Orange",
+    "price": 4.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/QvDTVqp9/download-65.jpg",
+    "brand": "Citrus World",
+    "rating": 4.5,
+    "sold": 60,
+    "free_shipping": true,
+    "details": "Seville oranges, tangy and perfect for marmalade."
+  },
+  {
+    
+    "id": 22,
+    "name": "Strawberry Fresh",
+    "category": "Strawberry",
+    "price": 6,
+    "unit": "pack",
+    "image": "https://i.ibb.co/RTmV907V/images-34.jpg",
+    "brand": "Berry Farm",
+    "rating": 4.9,
+    "sold": 50,
+    "free_shipping": true,
+    "details": "Fresh strawberries, juicy and sweet."
+  },
+  {
+    
+    "id": 23,
+    "name": "Strawberry Organic",
+    "category": "Strawberry",
+    "price": 6.5,
+    "unit": "pack",
+    "image": "https://i.ibb.co/S1yNqV1/download-69.jpg",
+    "brand": "Organic Orchard",
+    "rating": 4.8,
+    "sold": 40,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Organic strawberries, handpicked and fresh."
+  },
+  {
+    
+    "id": 24,
+    "name": "Strawberry Sweet",
+    "category": "Strawberry",
+    "price": 6.2,
+    "unit": "pack",
+    "image": "https://i.ibb.co/Xk7jV1Bh/download-70.jpg",
+    "brand": "Berry Farm",
+    "rating": 4.7,
+    "sold": 45,
+    "free_shipping": true,
+    "details": "Sweet strawberries, perfect for desserts and smoothies."
+  },
+  {
+    
+    "id": 25,
+    "name": "Strawberry Berry",
+    "category": "Strawberry",
+    "price": 6.3,
+    "unit": "pack",
+    "image": "https://i.ibb.co/BHjH83Jc/download-71.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.6,
+    "sold": 35,
+    "free_shipping": false,
+    "delivery_charge": 1.5,
+    "details": "Juicy berry strawberries, ideal for jams and cereals."
+  },
+  {
+    
+    "id": 26,
+    "name": "Strawberry King",
+    "category": "Strawberry",
+    "price": 6.8,
+    "unit": "pack",
+    "image": "https://i.ibb.co/DDLJq2KZ/images-32.jpg",
+    "brand": "Berry Farm",
+    "rating": 4.8,
+    "sold": 30,
+    "free_shipping": true,
+    "details": "King size strawberries, large and juicy."
+  },
+  {
+    
+    "id": 27,
+    "name": "Strawberry Delight",
+    "category": "Strawberry",
+    "price": 7,
+    "unit": "pack",
+    "image": "https://i.ibb.co/rRG8T5NY/images-33.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.9,
+    "sold": 25,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Delicious strawberries, perfect for desserts."
+  },
+  {
+    
+    "id": 28,
+    "name": "Pineapple Gold",
+    "category": "Pineapple",
+    "price": 5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/7d2fTKTy/download-73.jpg",
+    "brand": "Tropical Fruits",
+    "rating": 4.8,
+    "sold": 70,
+    "free_shipping": true,
+    "details": "Sweet and tangy golden pineapple."
+  },
+  {
+    
+    "id": 29,
+    "name": "Pineapple Queen",
+    "category": "Pineapple",
+    "price": 5.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/1GmCRWKN/images-35.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 60,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Queen pineapple, juicy and aromatic."
+  },
+  {
+    
+    "id": 30,
+    "name": "Pineapple Smooth",
+    "category": "Pineapple",
+    "price": 4.8,
+    "unit": "kg",
+    "image": "https://i.ibb.co/j9YdXbTS/images-36.jpg",
+    "brand": "Tropical Fruits",
+    "rating": 4.6,
+    "sold": 50,
+    "free_shipping": true,
+    "details": "Smooth pineapple, perfect for smoothies."
+  },
+  {
+    
+    "id": 31,
+    "name": "Pineapple Mini",
+    "category": "Pineapple",
+    "price": 4.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/PsjNTcyq/images-37.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.5,
+    "sold": 40,
+    "free_shipping": false,
+    "delivery_charge": 1.5,
+    "details": "Mini pineapples, sweet and fresh."
+  },
+  {
+    
+    "id": 32,
+    "name": "Pineapple Sweet",
+    "category": "Pineapple",
+    "price": 5.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/67B19nvH/images-38.jpg",
+    "brand": "Tropical Fruits",
+    "rating": 4.7,
+    "sold": 45,
+    "free_shipping": true,
+    "details": "Sweet and juicy pineapples."
+  },
+  {
+    
+    "id": 33,
+    "name": "Pineapple Tropic",
+    "category": "Pineapple",
+    "price": 5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/5hwT10Th/download-72.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.6,
+    "sold": 35,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Tropical pineapple, ideal for desserts."
+  },
+  {
+    
+    "id": 34,
+    "name": "Kiwi Green",
+    "category": "Kiwi",
+    "price": 6,
+    "unit": "kg",
+    "image": "https://i.ibb.co/9mRndBtt/download-77.jpg",
+    "brand": "Exotic Fruits",
+    "rating": 4.9,
+    "sold": 55,
+    "free_shipping": true,
+    "details": "Fresh green kiwi, rich in vitamin C and fiber."
+  },
+  {
+    
+    "id": 35,
+    "name": "Kiwi Gold",
+    "category": "Kiwi",
+    "price": 6.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/vC0tBYTy/download-78.jpg",
+    "brand": "Exotic Fruits",
+    "rating": 4.8,
+    "sold": 50,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Golden kiwi, sweet and juicy."
+  },
+  {
+    
+    "id": 36,
+    "name": "Kiwi Mini",
+    "category": "Kiwi",
+    "price": 5.8,
+    "unit": "kg",
+    "image": "https://i.ibb.co/Ldd7HtmC/images-39.jpg",
+    "brand": "FreshFarm",
+    "rating": 4.7,
+    "sold": 45,
+    "free_shipping": true,
+    "details": "Mini kiwis, perfect for snacks and desserts."
+  },
+  {
+    
+    "id": 37,
+    "name": "Kiwi Organic",
+    "category": "Kiwi",
+    "price": 6.2,
+    "unit": "kg",
+    "image": "https://i.ibb.co/7tkMkVww/download-74.jpg",
+    "brand": "Organic Orchard",
+    "rating": 4.8,
+    "sold": 40,
+    "free_shipping": false,
+    "delivery_charge": 1.8,
+    "details": "Organic kiwi, fresh and nutritious."
+  },
+  {
+    
+    "id": 38,
+    "name": "Kiwi Sweet",
+    "category": "Kiwi",
+    "price": 6.8,
+    "unit": "kg",
+    "image": "https://i.ibb.co/nMJD2bJ0/download-75.jpg",
+    "brand": "Exotic Fruits",
+    "rating": 4.9,
+    "sold": 35,
+    "free_shipping": true,
+    "details": "Sweet kiwi, juicy and fresh."
+  },
+  {
+    
+    "id": 39,
+    "name": "Kiwi Royal",
+    "category": "Kiwi",
+    "price": 7,
+    "unit": "kg",
+    "image": "https://i.ibb.co/hJDK0CqT/download-76.jpg",
+    "brand": "FreshFarm",
+    "rating": 5,
+    "sold": 30,
+    "free_shipping": false,
+    "delivery_charge": 2,
+    "details": "Royal kiwi, large and delicious."
+  },
+  {
+    
+    "id": 40,
+    "name": "Kiwi Fresh",
+    "category": "Kiwi",
+    "price": 6.5,
+    "unit": "kg",
+    "image": "https://i.ibb.co/Ldd7HtmC/images-39.jpg",
+    "brand": "Exotic Fruits",
+    "rating": 4.8,
+    "sold": 25,
+    "free_shipping": true,
+    "details": "Fresh kiwi, juicy and vitamin-rich."
+  }
+]
