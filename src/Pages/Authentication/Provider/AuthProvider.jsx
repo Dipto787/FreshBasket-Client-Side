@@ -40,7 +40,7 @@ const AuthProvider = ({ children }) => {
     };
     const getToken = async email => {
         const { data } = await axios.post(
-            `https://fresh-basket-server-side.vercel.app/jwt`,
+            `http://localhost:8000/jwt`,
             { email },
             { withCredentials: true }
         )

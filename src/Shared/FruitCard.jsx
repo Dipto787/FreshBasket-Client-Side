@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const FruitCard = ({ fruit }) => {
     return (
-        <Link>
+        <Link to={fruit._id}>
             <div className="bg-white shadow-xl p-4">
                 <figure>
                     <img

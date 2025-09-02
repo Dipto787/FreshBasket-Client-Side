@@ -17,7 +17,9 @@ import IsBlocked from "../Components/hooks/IsBlocked";
 import Blocked from "../Pages/Blocked";
 import AllFruits from "../Components/AllFruits";
 import UpdateFruit from "../Components/UpdateFruit";
-import AddFruits from "../Components/AddFruits";
+import AddFruits from "../Components/AddFruits"; 
+import FruitDetails from "../Pages/Dashboard/FruitDetails";
+import AdminHome from "../Pages/Dashboard/AdminHome";
 const router = createBrowserRouter([
     {
         path: '/',
@@ -30,7 +32,7 @@ const router = createBrowserRouter([
 
             {
                 path: '/shop',
-                element: <IsBlocked> <PrivateRoute><ShopLayout></ShopLayout></PrivateRoute></IsBlocked>
+                element:<ShopLayout></ShopLayout>
             },
             {
                 path: '/register',
@@ -40,6 +42,10 @@ const router = createBrowserRouter([
                 path: '/login',
                 element: <Login></Login>
             },
+            {
+                path:'/shop/:id',
+                element:<FruitDetails></FruitDetails>
+            }
             // {
             //     path: '/blocked',
             //     element: <IsBlocked><Blocked></Blocked></IsBlocked>
@@ -55,8 +61,12 @@ const router = createBrowserRouter([
         element: <IsBlocked> <PrivateRoute><DashboardLayout></DashboardLayout></PrivateRoute></IsBlocked>,
         children: [
             {
-                index: true,
+                path: 'userHome',
                 element: <IsBlocked> <DashboardHome></DashboardHome></IsBlocked>
+            },
+            {
+                    path:'adminHome',
+                    element:<IsAdmin><AdminHome></AdminHome></IsAdmin>
             },
             {
                 path: 'cart',

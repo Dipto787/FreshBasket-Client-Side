@@ -36,7 +36,7 @@ const DashboardLayout = () => {
                         <VscError size={24} />
                     </button>
                 </div>
-                {isLoading && <h1>Loading...</h1>}
+                 
 
                 {role.admin === 'admin' ? (
                     <ul onClick={() => setIsOpen(false)} className="menu p-4 space-y-3">

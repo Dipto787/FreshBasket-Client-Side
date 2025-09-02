@@ -2,12 +2,16 @@ import Banner from "../../Components/Banner";
 import CompanyOverview from "./CompanyOverview";
 import FreshPicks from "./FreshPicks";
 import OurBenefits from "./OurBenefits";
+import ShopByCategory from "./ShopByCategory";
 import SpecialOffers from "./SpecialOffers";
 import Testimonal from "./Testimonal";
 
-const Home = () => {
+const Home = () => { 
     return (
         <div className="">
+            <div className=" ">
+                <ShopByCategory></ShopByCategory>
+            </div>
             <div className=" pt-20 bg-slate-300 py-8">
                 <div className="max-w-7xl mx-auto px-8">
                     <Banner></Banner>
